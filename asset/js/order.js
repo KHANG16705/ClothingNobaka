@@ -185,5 +185,6 @@ btnAddToCart.addEventListener("click", () => {
 
   // 5. Thông báo và chuyển trang
   alert("Đã thêm vào giỏ hàng!");
-  window.location.href = "shopping_cart.html";
+  // window.location.href = "shopping_cart.html";
 });
+
