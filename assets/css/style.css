@@ -566,7 +566,7 @@
 
 /* life-style */
 .life-style .life-style-content{
-    background-image: url(/assets/img/mauuuu.jpg) ;
+    background-image: url(./assets/img/mau.jpg) ;
     height: 110vh;
     background-repeat: no-repeat; 
     background-size: cover;
@@ -835,6 +835,7 @@
 }
 
 /* End-Account-navigation */
+
 
 
 
