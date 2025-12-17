@@ -230,7 +230,7 @@
     z-index: 10001;
     background: white;
     padding: 0px 20px;
-    width: 800px; 
+    width: 60%; 
     border-radius: 4px; 
     box-shadow: 0 5px 15px rgba(0,0,0,0.3); 
     visibility: hidden;
@@ -590,4 +590,5 @@
         transition: all 1s ease-in-out; 
     }
 }
+
 
