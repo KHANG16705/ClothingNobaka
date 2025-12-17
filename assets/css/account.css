@@ -184,6 +184,25 @@
     cursor: pointer;  
     font-size: 18px; 
 }
+@media (max-width:767px){
+    .main-acc .profile-content{
+        padding-top:0px;
+        margin-left: 0px;
+    }
+    .account-content{
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    .main-acc .password-content{
+        padding-top: 50px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .main-acc .address-content{
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+}
 /* End-main-account */
 
 /* add-adress */
