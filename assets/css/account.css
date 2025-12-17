@@ -176,6 +176,7 @@
     position: absolute;
     bottom: 20px; 
     right: 20px; 
+    width: 20%;
 }
 .default-address label {
     display: flex;       
@@ -201,6 +202,15 @@
     .main-acc .address-content{
         margin-left: 0px;
         margin-bottom: 50px;
+    }
+    .address-item .btn1 {
+        position: static;
+        bottom: 20px; 
+        right: 20px; 
+        width: 30%;
+    }
+    .address-item{
+        width: 98%;
     }
 }
 /* End-main-account */
@@ -590,5 +600,6 @@
         transition: all 1s ease-in-out; 
     }
 }
+
 
 
