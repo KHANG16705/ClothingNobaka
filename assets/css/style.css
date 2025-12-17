@@ -57,6 +57,7 @@
     color: #000;
     font-size: 20px;
 }
+
 .header-content .header-icon button{
     display: inline-flex;
     color: #000;
@@ -102,6 +103,19 @@
     }
     .header-nav {
         order: 3;                
+    }
+}
+@media (max-width:767px) {
+    .header-content .header-icon{
+        font-size: 16px;
+    }
+    .header-nav .header-nav-btn{
+        font-size: 18px;
+        margin-left: 6px;
+    }
+    .header-content .header-icon button{
+        padding: 3px;
+        margin: 5px;
     }
 }
 /* End-Main-header */
@@ -566,7 +580,7 @@
 
 /* life-style */
 .life-style .life-style-content{
-    background-image: url(./assets/img/mau.jpg) ;
+    background-image: url(../img/mauuuu.jpg) ;
     height: 110vh;
     background-repeat: no-repeat; 
     background-size: cover;
@@ -628,7 +642,15 @@
     text-align: center; 
     color: #ccc;
 }
-
+@media(max-width:767px){
+    .footer .introduce .desc{
+        max-width: 100%;
+        font-size: 16px;
+    }
+    .footer{
+        padding-left: 20px;
+    }
+}
 /* End-Footer */
 
 .overlay1{
@@ -670,14 +692,6 @@
 .menu-footer .btn-close-footer:hover{
     background-color: #efecec;  
     color: var(--color-text);
-}
-@media (max-width: 991px) {
-    .menu-nav{
-        width: 100%;
-    }
-    .menu-footer .btn-close-footer{
-         visibility: visible;
-    }
 }
 .menu-nav.active{
     visibility: visible;
@@ -745,6 +759,21 @@
 }
 .menu-nav .menu-footer a{
     color: #fff;
+}
+@media (max-width: 991px) {
+    .menu-nav{
+        width: 100%;
+    }
+    .menu-footer .btn-close-footer{
+         visibility: visible;
+    }
+}
+
+@media (max-width:767px){
+    .menu-nav .menu-list .tab-btn{
+        font-size: 15px;
+        font-weight: 750;
+    }
 }
 /* End-navigation */
 
@@ -833,9 +862,12 @@
     /* border: 4px solid #000; */
     box-shadow: inset 0 0 0 2px #000;
 }
-
+@media (max-width:767px) {
+    .acc-nav{
+        width: 265px;
+    }
+}
 /* End-Account-navigation */
-
 
 
 
