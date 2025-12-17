@@ -71,11 +71,11 @@ body {
 }
 
 /* RIGHT */
-.summary {
+.cart-main .summary {
   border-left: 1px solid #eee;
   padding-left: 32px;
 }
-.promo {
+.cart-main .promo {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -144,6 +144,18 @@ body {
   .summary {
     border-left: none;
     padding-left: 0;
+    border-top: 1px solid #eee;
+    padding-top: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cart {
+    grid-template-columns: 1fr;
+  }
+  .summary {
+    border-left: none;
+    padding: 0px 5px;
     border-top: 1px solid #eee;
     padding-top: 24px;
   }
